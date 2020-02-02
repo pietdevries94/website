@@ -1,0 +1,45 @@
+baseurl = "https://www.devries.tech"
+title = "devries.tech"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+    author = "Piet de Vries"
+    info = "Full Stack Developer"
+    description = "Piet de Vries's personal website"
+    keywords = "personal"
+    avatarurl = "images/avatar.jpg"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/pietdevries94"
+[[params.social]]
+    name = "Email"
+    icon = "fas fa-envelope fa-2x"
+    weight = 2
+    url = "mailto:piet@devries.tech"
+[[params.social]]
+    name = "Matrix"
+    icon = "fas fa-comments fa-2x"
+    weight = 3
+    url = "/matrix/"
