@@ -12,8 +12,10 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@master
+      - name: Checkout submodules
+        uses: srt32/git-actions@v0.0.3
         with:
-          submodules: true
+          args: git submodule update --init --recursive
       - name: Publish Site
         uses: chabad360/hugo-gh-pages@master
         with:
