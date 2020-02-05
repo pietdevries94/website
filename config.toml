@@ -1,4 +1,4 @@
-baseurl = "https://www.devries.tech"
+baseurl = "/"
 title = "devries.tech"
 theme = "hugo-coder"
 languagecode = "en"
