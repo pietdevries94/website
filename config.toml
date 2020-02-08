@@ -15,7 +15,7 @@ pygmentscodefencesguesssyntax = true
     author = "Piet de Vries"
     info = "Full Stack Developer"
     description = "Piet de Vries's personal website"
-    keywords = "personal"
+    keywords = "developer,personal"
     avatarurl = "images/avatar.jpg"
 
     favicon_32 = "/img/favicon-32x32.png"
