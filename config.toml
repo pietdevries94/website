@@ -42,4 +42,4 @@ pygmentscodefencesguesssyntax = true
     name = "Matrix"
     icon = "fas fa-comments fa-2x"
     weight = 3
-    url = "/matrix/"
+    url = "/matrix"
