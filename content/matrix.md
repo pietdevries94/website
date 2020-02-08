@@ -10,3 +10,5 @@ If you want to chat directly with me, the best way is contacting me trough Matri
 ```
 
 [Matrix](https://matrix.org/) is an open network for secure, decentralized communication. You can host your own server, but you can also try it out at [Riot.im](https://about.riot.im/).
+
+If that isn't your thing, please send me an email at [piet@devries.tech](mailto:piet@devries.tech).
