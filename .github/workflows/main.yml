@@ -21,3 +21,9 @@ jobs:
         with:
           githubToken: ${{ secrets.PERSONAL_TOKEN }}
           branch: static
+      - name: Trigger Nixos configuration repo to update website
+        run: |
+          curl -X POST https://api.github.com/repos/pietdevries94/nixos-personal-server/dispatches \
+          -H 'Accept: application/vnd.github.everest-preview+json' \
+          -u ${{ secrets.PERSONAL_TOKEN }} \
+          --data '{"event_type": "ping", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
