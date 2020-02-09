@@ -22,7 +22,7 @@ pygmentscodefencesguesssyntax = true
     favicon_16 = "/img/favicon-16x16.png"
 
 
-    hidecredits = false
+    hidecredits = true
     hidecopyright = false
 
     rtl = false
